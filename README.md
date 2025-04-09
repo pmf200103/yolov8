@@ -8,7 +8,7 @@ This is a model using YOLOv8 to detect adapter-like features in the field of bio
 
 python>=3.8
 
-`cd YOLOv8-main && pip install -e .`
+`cd v2/YOLOv8-main && pip install -e .`
 
 ### DATASET
 
@@ -27,7 +27,7 @@ names: ['object']
 
 ### run
 
-`cd YOLOv8-main  && python train.py`
+`cd v2/YOLOv8-main  && python train.py`
 
 ```
 from ultralytics import YOLO
