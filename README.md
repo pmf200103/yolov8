@@ -12,7 +12,7 @@ python>=3.8
 
 ### DATASET
 
-在项目中，我们给出了标注好的一小部分的数据集，修改data.yaml文件
+In the project, we have provided a small portion of the dataset that has been annotated. You need to modify the `data.yaml` file to configure it.
 
 ```yaml
 train: /root/autodl-tmp/ada/train/data/adapter/images/train
